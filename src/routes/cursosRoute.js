@@ -11,7 +11,6 @@ router.get("/:estado/pagos", controller.getCursosPagos)
 router.post("/", controller.postCurso)
 router.delete("/turno", controller.deleteCursosPorTurno)
 router.delete("/:id", controller.deleteCurso)
-router.put("/:id", controller.putCurso)
-
+router.put("/:id", controller.putCurso);
 
 module.exports = router
