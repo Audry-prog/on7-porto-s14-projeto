@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 
 const app = express();
 
-mongoose.connect("mongodb://localhost:27017/cursos", { 
+mongoose.connect("mongodb+srv://Audry:Hyale@12@cluster0.pfvsg.mongodb.net/cursos?retryWrites=true&w=majority", { 
   useNewUrlParser: true, 
   useUnifiedTopology: true 
 });
